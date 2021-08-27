@@ -1,0 +1,47 @@
+TO DO:
+
+1) Hook up filter.
+    When user selects an emergency, the full hero list should filter for heroes that have that emergency in their data. These are nested inside "specialties" for each character.
+    
+        logic: 
+            const applicableHeroes = (use .find to see if the selected emergency matches one of the elements from the hero.specialties array.)
+            use setSuperHeroes to set superheroes array to applicable heroes.
+
+2) Hook up the wallet filter. 
+    If the user's wallet is lower than the amount that each hero charges, they should not be able to add them to My Hero list.
+
+        logic: 
+            pass the wallet total data to the SendHelp page (better/easier to fetch it directly from the database?)
+            if wallet total < hero.cost, don't allow user to add to the My Hero array.
+
+3) CSS
+    IN PROGRESS     -button styling on the main landing page (want 2 large centered buttons, with border, bouncing on hover, etc)
+    IN PROGRESS     -Delete "HEEEEEEEELP!!!" and replace with something else; styling the form and its components
+    IN PROGRESS     -Styling the wallet to look nicer. 
+    NOT STARTED     -styling the My Hero container
+    DONE            -style the navbar and its button(s)
+    DONE            -loading page image and title (image and login button should fade in over 5 seconds)
+
+4) add a button below the selected hero that removes them from the container and deducts that amount from their wallet.
+
+        logic:
+            put a listener on the button that setSelectedHero to "[]". send patch request to the db that wallet is = wallet minus hero.cost
+
+5) Add functionality to the login.
+
+        logic:
+            until learning more about databases: set a condition that the value must be a specific string in order to run the route.
+
+6) Allow removal of funds
+
+7) Toggle My Hero container. If array is empty, visibility should be none.
+
+8) Reset the input after user adds funds.
+
+
+
+BUGS:
+
+Medium: Asynchronisity. Error message about each needing an id. They have an id, but the first time they're clicked it hasn't been logged yet.
+Low: Background color on wallet not working.
+

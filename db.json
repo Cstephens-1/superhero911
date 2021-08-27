@@ -1,0 +1,159 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "image": "https://i.scdn.co/image/ab67706c0000bebb4f53bb8d9c0354410783e9f6",
+      "cost": "$500",
+      "specialties": [
+        "robbery",
+        "assault",
+        "terrorism",
+        "gang crime",
+        "human DNA altered mutants",
+        "kidnapping"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91KQZWNc7LL.jpg",
+      "cost": "$2000",
+      "specialties": [
+        "robbery",
+        "assault",
+        "alien invasion",
+        "radioactive rocks",
+        "failed parachutes and other freefall emergencies",
+        "mind-control",
+        "certain death rescue situation",
+        "terrorism",
+        "natural weather emergencies"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Spiderman",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png",
+      "cost": "$800",
+      "specialties": [
+        "robbery",
+        "assault",
+        "failed parachutes and other freefall emergencies",
+        "human DNA altered mutants",
+        "evacuation",
+        "kidnapping"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Wolverine",
+      "image": "https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/04/Wolverine-2.jpg",
+      "cost": "$1500",
+      "specialties": [
+        "human DNA altered mutants",
+        "assault",
+        "certain death rescue situation",
+        "evacuation"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Aquaman",
+      "image": "https://images3.newscred.com/Zz1kOWQ1YzI5MjM3OWRkMmJlZTQwNmE0MThiMjU4NzAxZQ==?width=1200",
+      "cost": "$1000",
+      "specialties": [
+        "human DNA altered mutants",
+        "natural weather emergencies",
+        "marine life threat (threat to person or animal)",
+        "deep sea rescue",
+        "kidnapping"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Black Widow",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKM7qYe9O499OWsKs82T-eGibU3JPIz25WsQ&usqp=CAU",
+      "cost": "$600",
+      "specialties": [
+        "gang crime",
+        "alien invasion",
+        "terrorism",
+        "assault",
+        "kidnapping"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Jean Grey",
+      "image": "https://i2.wp.com/stimulatedboredom.com/wp-content/uploads/2015/04/jean_grey_marvel_xmen_superheroes_comics_2560x1440_hd-wallpaper-1899852.jpg?fit=2560%2C1440",
+      "cost": "$2000",
+      "specialties": [
+        "human DNA altered mutants",
+        "natural weather emergencies",
+        "mind control",
+        "alien invasion",
+        "terrorism",
+        "certain death rescue situation"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Storm",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Storm_%28Marvel_Comics_-_1990s%29.png/170px-Storm_%28Marvel_Comics_-_1990s%29.png",
+      "cost": "$1800",
+      "specialties": [
+        "human DNA altered mutants",
+        "natural weather emergencies",
+        "alien invasion",
+        "terrorism",
+        "failed parachutes and other freefall emergencies",
+        "gang crime",
+        "kidnapping",
+        "fire"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Deadpool",
+      "image": "https://i.pinimg.com/736x/b9/8f/8d/b98f8df8b3a209afc91cf2fcbea3385f.jpg",
+      "cost": "$1000",
+      "specialties": [
+        "human DNA altered mutants",
+        "terrorism",
+        "gang crime",
+        "kidnapping",
+        "robbery",
+        "certain death rescue situation"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Iron Man",
+      "image": "https://www.sideshow.com/storage/product-images/501061U/iron-man_marvel_feature.jpg",
+      "cost": "$600",
+      "specialties": [
+        "human DNA altered mutants",
+        "terrorism",
+        "gang crime",
+        "kidnapping",
+        "robbery",
+        "evacuation",
+        "failed parachutes and other freefall emergencies",
+        "alien invasion"
+      ]
+    }
+  ],
+  "ledger": [
+    {
+      "id": 1,
+      "walletTotal": 525
+    }
+  ],
+  "missions": [
+    {
+      "mission": "assault",
+      "id": 1
+    }
+  ]
+}
